@@ -5,11 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Webpack Code Splitting</title>
+
+  <style>
+    * {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 
 <body>
-  <div id="app"></div>
-  
+  <div id="app">
+    <div id="home">
+      <input type="button" value="Load home" id="homeLoadButton">
+    </div>
+    <div id="contact">
+
+    </div>
+    <div id="about">
+
+    </div>
+  </div>
+
   <script src="./dist/build.js"></script>
 </body>
 
