@@ -10,21 +10,24 @@
     * {
       background-color: rgba(0, 0, 0, 0.1);
     }
+
+    #home, #contact, #about {
+      display: block;
+      height: 200px;
+      width: 100%;
+    }
   </style>
 </head>
 
 <body>
   <div id="app">
-    <div id="home">
-      <input type="button" value="Load home" id="homeLoadButton">
-    </div>
-    <div id="contact">
-
-    </div>
-    <div id="about">
-
-    </div>
+    <input type="button" value="Load Home component" id="homeButton">
+    <input type="button" value="Load Contact component" id="contactButton">
+    <input type="button" value="Load About component" id="aboutButton">
   </div>
+  <div id="home"></div>
+  <div id="contact"></div>
+  <div id="about"></div>
 
   <script src="./dist/build.js"></script>
 </body>
